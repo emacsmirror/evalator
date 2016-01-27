@@ -16,9 +16,8 @@ Available context packages:
 
 Don't see a context package for your favorite language?  Write one!  See [evalator-context-elisp.el](https://github.com/seanirby/evalator/blob/master/evalator-context-elisp.el) and [evalator-context-cider.el](https://github.com/seanirby/evalator-context-cider/blob/master/evalator-context-cider.el) for examples.  Open an issue in this repo with any questions and I'll be happy to help.
 
-Here's a practical example to demonstrate what evalator's capable of:
+Let's consider a practical use-case to demonstrate see what evalator is capable of.
 
-### A Practical Example ###
 Suppose you have several Emacs packages and want to generate an elisp configuration file for each one in your current directory.  Each file should be named ```setup-$PACKAGE.el``` with ```$PACKAGE``` equaling the package name.  Each file should contain the following line.
 
 ```
@@ -27,6 +26,10 @@ Suppose you have several Emacs packages and want to generate an elisp configurat
 
 Watch the example below to see how easy this is with evalator.
 
+### A Practical Example ###
+<div>
+<a href="https://github.com/seanirby/evalator#a-practical-example-gif">Click here to start from the beginning</a>
+</div>
 ![a-practical-example](example-gifs/practical.gif)
 
 Here's what happened:
@@ -57,7 +60,9 @@ Add the following to your init file
 ```
 
 ## <a name="basic-usage"></a> Basic Usage ##
-
+<div>
+ <a href="https://github.com/seanirby/evalator#basic-usage">Click here to start from the beginning</a>
+</div>
 ![walkthrough](example-gifs/walkthrough.gif)
 
 ### Public API ###
